@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "getGreeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "Greeter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0xf6c9f18c49ffa63f14a1655e7e4ea00a9757791635c4ff203d1ba17f0ab7402f",
+			"license": "GL-3.0",
+			"urls": [
+				"bzz-raw://f4eb2d89cab69cad26c5d4dbbc2b23d37cd8c718a080ca5e3c08c04a9bde24d6",
+				"dweb:/ipfs/QmPit2k8STgjFQK9Wcna4aXLRyBAKvEGmnJSY5KiTzfz6C"
+			]
+		}
+	},
+	"version": 1
+}
